@@ -255,11 +255,11 @@ func (r *Application) Count(count int) *Application {
 	return r
 }
 
-// TaskKillGracePeriod sets the number of seconds between escalating from SIGTERM to SIGKILL
+// SetTaskKillGracePeriod sets the number of seconds between escalating from SIGTERM to SIGKILL
 // when signalling tasks to terminate. Using this grace period, tasks should perform orderly shut down
 // immediately upon receiving SIGTERM.
 //		seconds:	the number of seconds
-func (r *Application) TaskKillGracePeriod(seconds float64) *Application {
+func (r *Application) SetTaskKillGracePeriod(seconds float64) *Application {
 	r.TaskKillGracePeriodSeconds = &seconds
 
 	return r
