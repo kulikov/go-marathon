@@ -18,7 +18,6 @@
       "backoffFactor": 1.15,
       "backoffSeconds": 1,
       "maxLaunchDelaySeconds": 3600,
-      "taskKillGracePeriodSeconds": 42,
       "cmd": "env && python3 -m http.server $PORT0",
       "constraints": [
           [
@@ -682,7 +681,6 @@
                         "backoffFactor": 1.15,
                         "backoffSeconds": 1,
                         "maxLaunchDelaySeconds": 3600,
-                        "taskKillGracePeriodSeconds": 42,
                         "cmd": "sleep 30",
                         "constraints": [],
                         "container": null,
@@ -727,7 +725,6 @@
                 "backoffFactor": 1.15,
                 "backoffSeconds": 1,
                 "maxLaunchDelaySeconds": 3600,
-                "taskKillGracePeriodSeconds": 42,
                 "cmd": "sleep 30",
                 "constraints": [],
                 "container": null,
