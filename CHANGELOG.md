@@ -6,6 +6,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 ### Added
+- [#246][PR246] Add TaskKillGracePeriodSeconds support.
 - [#244][PR244] Add taskStats support.
 
 ### Changed
